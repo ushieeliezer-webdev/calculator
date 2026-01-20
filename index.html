@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+    <div class="calculator-container">
+        <div>
+            <input id="calculation-box" type='text' name="calculation" disabled />
+            <div class="buttons-container">
+                <div class="digits-container">
+                    <input type="button" value="1"/>
+                    <input type="button" value="2"/>
+                    <input type="button" value="3"/>
+                    <input type="button" value="4"/>
+                    <input type="button" value="5"/>
+                    <input type="button" value="6"/>
+                    <input type="button" value="7"/>
+                    <input type="button" value="8"/>
+                    <input type="button" value="9"/>
+                    <input type="button" value="."/>
+                    <input type="button" value="0"/>
+                    <button id="delete-btn" class="delete-btn">
+                        <img src="/images/delete-icon.svg" alt="delete-icon" />
+                    </button>
+
+                </div>
+                <div class="operators-container">
+                    <input id='multiply' type="button" value="x">
+                    <input id="divide" type="button" value="&divide;">
+                    <input id="plus" type="button" value="+">
+                    <input id="minus" type="button" value="-">
+                    <input id="remainder" type="button" value="%">
+                    <input id="caret" type="button" value="^">
+                    <button id="calculate" class="calculate">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
